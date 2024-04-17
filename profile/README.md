@@ -11,8 +11,8 @@ Create a vault:
 * 3 of 4 (most secure)
 
 🔮 Threshold-Sig Vaults are better than Single-Sig or Multi-sig Wallets:
-1) If you leak or lose a single-sig wallet, you can lose everything
-2) There is no on-chain registration of signing-keys (such as Bitcoin or EVM Multi-sigs)
+1) Vault shares do not store funds - thus no funds at risk if you lose a key. 
+2) There is no on-chain registration of signing-keys.
 3) Threshold-Sigs are compatible on all chains (Multi-sigs are not)
 4) Threshold-Sigs are fully DeFi compatible (Multi-sigs are not)
 
@@ -25,6 +25,6 @@ Create a vault:
 
 👩‍💻 Read the docs (soon) 
 
-🍿 Download here [iOS Testflight Currently](https://testflight.apple.com/join/CHHICwnO))
+🍿 Download here [iOS Testflight Currently](https://testflight.apple.com/join/CHHICwnO)
 
 🧙 Contribute to the code (https://github.com/voltix-vault/voltix)
