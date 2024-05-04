@@ -1,30 +1,31 @@
 ## Hi there 👋
 
-🙋‍♀️ Voltix is a multichain Threshold-Signature vault that does not need any specialised hardware. It supports most UTXO, EVM, BFT and EdDSA Chains.
+🙋‍♀️ Vultisig is a multichain multisig vault that does not need any specialised hardware. It supports most UTXO, EVM, BFT and EdDSA Chains.
 It is based on [go-tss](https://github.com/bnb-chain/tss-lib/tree/master).
 
-Voltix is built by the founders of THORChain - who built the largest and oldest working multi-chain DEX with Threshold-signatures. 
+Vultisig is built by the founders of THORChain - who built the largest and oldest working multi-chain DEX with Threshold-signatures. 
 
 Create a vault:
 * 2 of 2 (fastest setup, not backed up)
 * 2 of 3 (recommended, backed up)
 * 3 of 4 (most secure)
 
-🔮 Threshold-Sig Vaults are better than Single-Sig or Multi-sig Wallets:
-1) Vault shares do not store funds - thus no funds at risk if you lose a key. 
-2) There is no on-chain registration of signing-keys.
-3) Threshold-Sigs are compatible on all chains (Multi-sigs are not)
-4) Threshold-Sigs are fully DeFi compatible (Multi-sigs are not)
+🔮 Vultisig Vaults are better than Single-Sig or Multi-sig Wallets:
 
-📱 Voltix uses your favourite Laptops, Tablets and Phones. 
+1) Vultisig vault shares do not store funds - thus no funds at risk if you lose a key. 
+2) There is no on-chain registration of signing-keys.
+3) Vultisig is compatible on all chains (other Multi-sigs are not)
+4) Vultisig is fully DeFi compatible (other Multi-sigs are not)
+
+📱 Vultisig uses your favourite Laptops, Tablets and Phones. 
 1) Rich, large screens with familiar UI
 2) Secure Enclaves to store vault shares, with biometric locking. 
 3) Does not look a hardware device (not a honeypot)
 
-🌈 Voltix is open-source, based on secure technology and is audited (link soon). There is no registration required. 
+🌈 Vultisig is open-source, based on secure technology and is audited (link soon). There is no registration required. 
 
 👩‍💻 Read the docs (soon) 
 
 🍿 Download here [iOS Testflight Currently](https://testflight.apple.com/join/CHHICwnO)
 
-🧙 Contribute to the code (https://github.com/voltix-vault/voltix)
+🧙 Contribute to the code (https://github.com/vultisig)
