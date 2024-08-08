@@ -22,7 +22,7 @@ Create a vault:
 2) Secure Enclaves to store vault shares, with biometric locking. 
 3) Does not look a hardware device (not a honeypot)
 
-🌈 Vultisig is open-source, based on secure technology and is audited (link soon). There is no registration required. 
+🌈 Vultisig is open-source, based on secure technology and is audited ([Code4rena](https://code4rena.com/reports/2024-06-vultisig)). There is no registration required. 
 
 👩‍💻 Read the docs (soon) 
 
