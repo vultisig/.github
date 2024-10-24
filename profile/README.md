@@ -1,7 +1,11 @@
 ## Hi there 👋
 
-🙋‍♀️ Vultisig is a multi-chain, multi-factor, multi-platform Threshold-Signature vault that does not need any specialised hardware. It supports most UTXO, EVM, BFT and EdDSA Chains.\
+🙋‍♀️At its core Vultisig is a multi-chain, multi-factor, multi-platform Threshold-Signature vault that does not need any specialised hardware. It supports most UTXO, EVM, BFT and EdDSA Chains.\
 It is based on [Binance tss-lib](https://github.com/bnb-chain/tss-lib/tree/master), but adapted for the mobile environment.
+
+In addition, the Vultisig team is constantly expanding the functionality and use of Vultisig with
+* A Chrome browser extension - easy access to web3
+* Web version - view your positions and join the airdrop
 
 Vultisig is built by the founders of [THORChain](https://thorchain.org) - who built the largest and oldest working multi-chain DEX with Threshold-signatures.
 
@@ -49,7 +53,18 @@ Vultisig is a ever expanding Ecosystem. Working on more platforms, products and 
 
 👩‍💻 Read the docs!
 
-🍿 Download here [iOS AppStore](https://apps.apple.com/us/app/vultisig/id6503023896), [iOS Testflight](https://testflight.apple.com/join/kpVufItl), [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet) or [Google Play Store Web](https://play.google.com/apps/testing/com.vultisig.wallet). Android APK or MacOS downloads also available - please check on Vultisig Discord for these.
+🍿 Download here:
+Vultisig:
+* [iOS AppStore](https://apps.apple.com/us/app/vultisig/id6503023896)
+* [iOS Testflight](https://testflight.apple.com/join/kpVufItl)
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet)
+* [Google Play Store Web](https://play.google.com/apps/testing/com.vultisig.wallet)
+* [Android APK](https://github.com/vultisig/vultisig-android/releases)
+* [Windows application](https://github.com/vultisig/vultisig-windows/releases) 
+* [MacOS](https://github.com/vultisig/vultisig-ios/releases)
+
+🧰 VultiConnect - The chrome browser extension:
+* [Chrome Store](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0&hl=en-GB)
 
 🧙 Contribute to the code ([https://github.com/vultisig](https://github.com/vultisig))\
 \
