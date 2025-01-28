@@ -16,9 +16,8 @@ It is possible to create a vault with different secure setup options:
 #### Ease of use options:
 
 * Fast Vaults (One device solution, "hot wallet")
-* Active Vaults (Two device solution, "main wallet")
 
-#### Self Custodial options:
+#### Self Custodial options (Secure Vaults):
 
 * 2 of 2 (fastest setup, not backed up\*)
 * 2 of 3 (recommended, backed up\*)
