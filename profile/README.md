@@ -6,6 +6,7 @@ It is based on [Binance tss-lib](https://github.com/bnb-chain/tss-lib/tree/maste
 In addition, the Vultisig team is constantly expanding the functionality and use of Vultisig with
 * A Chrome browser extension - easy access to web3
 * Web version - view your positions and join the airdrop
+* A marketplace for Plugins and Ai Agents to automate the wallet
 
 Vultisig is built by the founders of [THORChain](https://thorchain.org) - who built the largest and oldest working multi-chain DEX with Threshold-signatures.
 
