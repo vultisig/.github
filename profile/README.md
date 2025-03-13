@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 🙋‍♀️At its core Vultisig is a multi-chain, multi-factor, multi-platform Threshold-Signature vault that does not need any specialised hardware. It supports most UTXO, EVM, BFT and EdDSA Chains.\
-It is based on [Binance tss-lib](https://github.com/bnb-chain/tss-lib/tree/master), but adapted for the mobile environment.
+It is powered by a modern [DKLS TSS protocol](https://dkls.info), but adapted for the mobile environment.
 
 In addition, the Vultisig team is constantly expanding the functionality and use of Vultisig with
 * A Chrome browser extension - easy access to web3
