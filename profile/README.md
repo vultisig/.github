@@ -7,6 +7,7 @@ In addition, the Vultisig team is constantly expanding the functionality and use
 * A Chrome browser extension - easy access to web3
 * Web version - view your positions and join the airdrop
 * A marketplace for Plugins and Ai Agents to automate the wallet
+* A TypeScript SDK and MCP server for developers and AI agents
 
 Vultisig is built by the founders of [THORChain](https://thorchain.org) - who built the largest and oldest working multi-chain DEX with Threshold-signatures.
 
@@ -24,7 +25,7 @@ It is possible to create a vault with different secure setup options:
 * 2 of 3 (recommended, backed up\*)
 * 3 of 4 (most secure)
 
-_The above are the most popular vault configurations and more can come in the future._\\
+_The above are the most popular vault configurations and more can come in the future._\
 
 ## Why
 
@@ -44,8 +45,62 @@ _The above are the most popular vault configurations and more can come in the fu
 
 ## Who should use it
 
-Everyone should use it!\
-It is far safer than anything else (mobile, desktop, hardware, etc).
+**Humans** — It is far safer than anything else (mobile, desktop, hardware, etc). Self-custodial, seedless, multi-chain. One vault for everything.
+
+**AI Agents** — Vultisig vaults are programmable. Agents can create vaults, sign transactions, and operate across 40+ chains via the TypeScript SDK, CLI, or MCP server. Fast Vaults enable full autonomy. Secure Vaults add human co-signing for oversight.
+
+## Agentic Infrastructure
+
+### Build on Vultisig
+
+The [TypeScript SDK](https://github.com/vultisig/vultisig-sdk) (`@vultisig/sdk`) gives you everything: vault creation, address derivation, balance queries, transaction signing, cross-chain swaps across 40+ chains. Two vault modes:
+
+| | Fast Vault | Secure Vault |
+|---|-----------|-------------|
+| **Setup** | 2-of-2 with VultiServer | N-of-M multi-device |
+| **Signing** | Instant, no human needed | Requires device co-signature via QR |
+| **Agent use case** | Full autonomy | Human oversight on every tx |
+
+The [CLI](https://docs.vultisig.com/developer-docs/vultisig-sdk/CLI) mirrors the full SDK for scripting and automation pipelines — JSON output, env var auth, zero interactive prompts.
+
+### MCP Server _(WIP)_
+
+Model Context Protocol server for Vultisig. Any MCP-compatible AI agent can query balances, build transactions, and operate vaults directly.
+
+Available tools: `set_vault_info`, `get_address`, `search_token`, `evm_get_balance`, `evm_get_token_balance`, `evm_check_allowance`, `evm_tx_info`, `evm_call`, `build_evm_tx` — with UTXO, Solana, and Cosmos support expanding.
+
+→ [`mcp`](https://github.com/vultisig/mcp)
+
+### Agent discovery
+
+Agent-friendly files on [vultisig.com](https://vultisig.com):
+
+| File | Purpose |
+|------|---------|
+| [`SKILL.md`](https://vultisig.com/SKILL.md) | Full operating procedure — vault creation, sends, swaps, balances |
+| [`llms.txt`](https://vultisig.com/llms.txt) | Spec-compliant link index ([llmstxt.org](https://llmstxt.org) format) |
+| [`llms-full.txt`](https://vultisig.com/llms-full.txt) | Full SDK context with code examples |
+| [`agent.json`](https://vultisig.com/.well-known/agent.json) | Capabilities manifest — chains, operations, SDK info |
+
+### Resources
+
+| Resource | Link |
+|----------|------|
+| SDK API reference | [vultisig.github.io/vultisig-sdk](https://vultisig.github.io/vultisig-sdk/) |
+| SDK implementation guide | [docs.vultisig.com/developer-docs/vultisig-sdk/SDK-USERS-GUIDE](https://docs.vultisig.com/developer-docs/vultisig-sdk/SDK-USERS-GUIDE) |
+| CLI reference | [docs.vultisig.com/developer-docs/vultisig-sdk/CLI](https://docs.vultisig.com/developer-docs/vultisig-sdk/CLI) |
+| Agent integration guide | [docs.vultisig.com/agent](https://docs.vultisig.com/agent) |
+| Plugin dev docs | [docs.vultisig.com/developer-docs/marketplace](https://docs.vultisig.com/developer-docs/marketplace/) |
+| Local dev environment | [`vcli`](https://github.com/vultisig/vcli) |
+
+### Ecosystem
+
+| Component | Link |
+|-----------|------|
+| Plugin Marketplace | [apps.vultisig.com](https://apps.vultisig.com) · [`app-marketplace`](https://github.com/vultisig/app-marketplace) |
+| Developer Portal | [`developer-portal`](https://github.com/vultisig/developer-portal) |
+| Verifier + Recipes | [`verifier`](https://github.com/vultisig/verifier) · [`recipes`](https://github.com/vultisig/recipes) |
+| AI Agent Backend | [`agent-backend`](https://github.com/vultisig/agent-backend) |
 
 ## Other
 
@@ -60,10 +115,10 @@ Vultisig:
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet)
 * [Google Play Store Web](https://play.google.com/apps/testing/com.vultisig.wallet)
 * [Android APK](https://github.com/vultisig/vultisig-android/releases)
-* [Windows application](https://github.com/vultisig/vultisig-windows/releases) 
+* [Windows application](https://github.com/vultisig/vultisig-windows/releases)
 * [MacOS](https://github.com/vultisig/vultisig-ios/releases)
 
-🧰 VultiConnect - The chrome browser extension:
+🧰 Vultisig Extension - The chrome browser extension:
 * [Chrome Store](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0&hl=en-GB)
 
 🧙 Contribute to the code ([https://github.com/vultisig](https://github.com/vultisig))\
